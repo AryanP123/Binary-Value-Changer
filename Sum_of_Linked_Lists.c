@@ -10,7 +10,6 @@ struct node
     Node* next;
 };
 
-//declare your function here.
 Node* reverse_linked_list(Node* head);
 void print_list(Node* head);
 void head_insert(Node** head , int num);
