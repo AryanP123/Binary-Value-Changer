@@ -1,7 +1,3 @@
-/***********************************************************
-Purpose: Replaces specified bits of a value with a 1 as well as 0 and then displaying the binary of the values of the array.
-***********************************************************/
-
 #include <stdio.h>
 #include <stdlib.h>
 
