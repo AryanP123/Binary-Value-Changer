@@ -10,7 +10,6 @@ struct node
     Node* next;
 };
 
-//declare your function here.
 Node* reverse_linked_list(Node* head);
 
 
@@ -34,7 +33,6 @@ int main(int argc, char* argv[])
         head = temp;
     }
 
-    //call your function to reverse the list (should work for any list given the head node pointer).
     head = reverse_linked_list(head);
     //print the reversed list.
     temp = head;
@@ -48,7 +46,6 @@ int main(int argc, char* argv[])
 }
 
 
-//Define your function here
 Node* reverse_linked_list(Node* head){
     Node* previous = NULL;
     Node* next = head;
